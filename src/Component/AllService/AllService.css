@@ -1,0 +1,18 @@
+.single-card{
+  height: 450px;
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.single-card:hover{
+  z-index: 1;
+  box-shadow: 0 10px 50px gray;
+  transform: scale(1.05);
+}
+
+.single-card img{
+    height: 200px;
+    border-radius: 10px;
+}

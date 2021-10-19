@@ -1,0 +1,9 @@
+.service-item{
+    background-color: #f7f7f7;
+    text-align: center;
+}
+.service-title{
+    margin-bottom: 50px;
+    font-weight: 900;
+    color: gray;
+}

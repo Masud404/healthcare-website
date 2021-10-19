@@ -1,0 +1,33 @@
+.from{
+    margin-top: 50px;
+}
+
+.from-input{
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 400px;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+.from-button{
+    padding: 10px;
+    width: 400px;
+    border-radius: 10px;
+    border: none;
+    background-color: #1563f5;
+    font-weight: 500;
+    color: white;
+}
+.login-provider img{
+    margin-right: 20px;
+    margin-bottom: 30px;
+    border: 2px solid rgb(238, 232, 232);
+    height: 70px;
+    border-radius: 50px;
+    transition: 0.3s all;
+    cursor: pointer;
+}
+.login-provider img:hover{
+   box-shadow: 0px 10px 50px gray;
+    transform: scale(1.05);
+}
