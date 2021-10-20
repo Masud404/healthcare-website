@@ -17,7 +17,7 @@ const ServiceDetails = () => {
         // single details
         <div className="container my-5 text-center mx-auto">
             <div>
-                <img src={details?.img} alt="" />
+                <img className="img-fluid" src={details?.img} alt="" />
                 <h1 className="fw-bold">{details?.name}</h1>
                 <h4 className="fw-bold"><span className="text-danger">Symptoms</span>: {details?.Symptoms}</h4>
                 <p className="fw-bold">{details?.Detail}</p>
