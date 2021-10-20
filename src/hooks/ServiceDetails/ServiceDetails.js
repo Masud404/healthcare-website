@@ -15,7 +15,7 @@ const ServiceDetails = () => {
 
     return (
         // single details
-        <div className="container my-5 text-center">
+        <div className="container my-5 text-center mx-auto">
             <div>
                 <img src={details?.img} alt="" />
                 <h1 className="fw-bold">{details?.name}</h1>

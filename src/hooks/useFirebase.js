@@ -58,6 +58,7 @@ const useFirebase = () => {
 
         createUserWithEmailAndPassword(auth, email, password)
             .then(result => {
+                window.location.reload();
                 const user = result.user;
                 setError('')
                 setUserName();
