@@ -7,6 +7,7 @@ import icon2 from '../../images/about/icons8-vision-24.png'
 const AboutUs = () => {
     return (
         <div>
+            {/* about section */}
             <Container>
                 <Row className="my-5">
                     <Col>

@@ -9,6 +9,7 @@ import doctor3 from '../../images/doctor/doctor-3.png'
 const Doctor = () => {
     return (
         <div>
+            {/* leader and team section */}
             <Container>
                 <Row className="my-5">
                     <Col className="mt-5">
@@ -22,6 +23,7 @@ const Doctor = () => {
                         <img className="w-100" src={leader} alt="" />
                     </Col>
                 </Row>
+                {/* doctors section */}
                 <h1 className="fw-bold text-primary mb-4">Doctors</h1>
                 <Row xs={1} md={3} className="g-4 mb-5">
 

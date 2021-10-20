@@ -6,6 +6,7 @@ import sideimg from '../../images/about-us.jpg'
 const Quality = () => {
     return (
         <div className="quality-section">
+            {/* quality section */}
             <Container>
                 <Row>
                     <Col>

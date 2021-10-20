@@ -1,7 +1,8 @@
+/* register form */
 .from{
     margin-top: 50px;
 }
-
+/* register form input */
 .from-input{
     margin-bottom: 20px;
     padding: 10px;
@@ -9,6 +10,7 @@
     border: 2px solid gray;
     border-radius: 10px;
 }
+/* register form button */
 .from-button{
     padding: 10px;
     width: 400px;
@@ -18,6 +20,7 @@
     font-weight: 500;
     color: white;
 }
+/* register form img */
 .login-provider img{
     margin-right: 20px;
     margin-bottom: 30px;

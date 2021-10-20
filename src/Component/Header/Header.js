@@ -7,6 +7,7 @@ import slider3 from '../../images/slider/slider_003.jpg'
 const Header = () => {
     return (
         <div>
+            {/* header slider section */}
             <Carousel>
                 <Carousel.Item>
                     <img
@@ -14,6 +15,7 @@ const Header = () => {
                         src={slider1}
                         alt="First slide"
                     />
+                    {/* physimodeic slider */}
                     <Carousel.Caption>
                         <h1>PHYSIOMEDIC</h1>
                         <p>PhysioMedics™​ is a healthcare technology company which provides online software solutions to reduce costs and improve efficiencies in managing musculoskeletal ...</p>
@@ -25,7 +27,7 @@ const Header = () => {
                         src={slider2}
                         alt="Second slide"
                     />
-
+                    {/* technolgy and experience slider */}
                     <Carousel.Caption>
                         <h1>TECHONOLGY & EXPERIENCE</h1>
                         <p>Technology as Experience expertly explores the emotional and aesthetic dimensions of technological encounters, from the visceral aspects of subjective experience to the cultural embeddedness and meaning surrounding artifacts and our experience of them.</p>
@@ -37,7 +39,7 @@ const Header = () => {
                         src={slider3}
                         alt="Third slide"
                     />
-
+                    {/* diagnosis and treatment slider  */}
                     <Carousel.Caption>
                         <h1>DIAGNOSIS & TREATMENT </h1>
                         <p>Diagnosis at Mayo Clinic. Systemic capillary leak syndrome is difficult to diagnose. You may undergo blood and urine tests and imaging studies.</p>

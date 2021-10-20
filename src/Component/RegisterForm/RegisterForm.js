@@ -11,8 +11,10 @@ import useAuth from '../../hooks/useAuth';
 
 const RegisterForm = () => {
     const { signInUsignGoogle, handleRegistration, handleEmailChange, handlePasswordChange, error, handleNameChange } = useAuth();
+
     return (
         <div>
+            {/* registar form section */}
             <Container>
                 <Row>
                     <Col>

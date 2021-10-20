@@ -1,3 +1,4 @@
+/* single card */
 .single-card{
   height: 450px;
   text-align: center;
@@ -11,7 +12,7 @@
   box-shadow: 0 10px 50px gray;
   transform: scale(1.05);
 }
-
+/* card img size */
 .single-card img{
     height: 200px;
     border-radius: 10px;

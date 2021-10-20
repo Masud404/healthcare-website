@@ -12,6 +12,7 @@ const Service = () => {
             .then(data => setService(data))
     }, [])
     return (
+        // service section
         <div className="service-item py-5">
             <h1 className="service-title">Our Service</h1>
             <div className="d-flex justify-content-center">

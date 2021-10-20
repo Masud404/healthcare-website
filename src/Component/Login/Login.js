@@ -11,6 +11,7 @@ const Login = () => {
     const { handleLogin, signInUsignGoogle, handleEmailChange, handlePasswordChange, error } = useAuth();
     return (
         <div>
+            {/* login section */}
             <Container>
                 <Row>
                     <Col>
@@ -39,7 +40,7 @@ const Login = () => {
                     </Col>
                 </Row>
             </Container>
-        </div>
+        </div >
     );
 };
 

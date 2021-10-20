@@ -12,16 +12,19 @@ const useFirebase = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [error, setError] = useState('');
+    const [loading, setLoading] = useState(true);
 
 
     const auth = getAuth();
     // signin google provider
     const signInUsignGoogle = () => {
+        setLoading(true);
         const googleProvider = new GoogleAuthProvider();
         signInWithPopup(auth, googleProvider)
             .then(result => {
-                setUser(result, user)
+                setUser(result.user)
             })
+            .finally(() => setLoading(false))
     }
     // email and password provider
     const handleNameChange = e => {
@@ -43,7 +46,7 @@ const useFirebase = () => {
             .then(result => { })
     }
 
-
+    // registration
     const handleRegistration = e => {
         e.preventDefault();
         if (password.length < 6) {
@@ -51,7 +54,7 @@ const useFirebase = () => {
             return;
         }
 
-
+        // set email and password for login
 
         createUserWithEmailAndPassword(auth, email, password)
             .then(result => {
@@ -90,13 +93,16 @@ const useFirebase = () => {
             else {
                 setUser({})
             }
+            setLoading(false)
         })
         return () => unsubscribed;
     }, [auth]);
-
+    // logout function
     const logout = () => {
+        setLoading(true);
         signOut(auth)
             .then(() => { })
+            .finally(() => setLoading(false))
     }
 
     return {
@@ -108,7 +114,8 @@ const useFirebase = () => {
         handlePasswordChange,
         error,
         handleLogin,
-        handleNameChange
+        handleNameChange,
+        loading
     }
 }
 

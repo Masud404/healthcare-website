@@ -11,9 +11,11 @@ import images6 from '../../images/success/success_006.jpg'
 
 const Success = () => {
     return (
+        // success section
         <div className="service-item py-5 mt-5">
             <h1 className="service-title">Success stories</h1>
             <p className="fw-bold ms-5 me-5">CDC’s National Center for Chronic Disease Prevention and Health Promotion’s (NCCDPHP) Success Stories application provides grantees with a tool to show how their funding is used and why their work matters.</p>
+            {/* success storis section */}
             <Container>
                 <Row xs={1} md={3} className="g-4">
                     <Col>

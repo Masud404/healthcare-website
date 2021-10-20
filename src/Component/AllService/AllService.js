@@ -5,8 +5,8 @@ import './AllService.css'
 
 
 const AllService = (props) => {
-    console.log(props)
-    const { name, img, Description, id, Detail } = props.service;
+    // service detail
+    const { name, img, Description, id } = props.service;
     return (
         <div>
 
@@ -18,7 +18,7 @@ const AllService = (props) => {
                         <Card.Text>
                             {Description}
                         </Card.Text>
-                        <Link to={`/servicedetails/${Detail} /servicedetails/${id}`}>
+                        <Link to={`/servicedetails/${id}`}>
                             <button className="btn btn-primary">Details</button>
                         </Link>
                     </Card.Body>

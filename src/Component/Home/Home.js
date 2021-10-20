@@ -6,6 +6,7 @@ import Success from '../Success/Success';
 
 const Home = () => {
     return (
+        // all home component
         <div>
             <Header></Header>
             <Service></Service>

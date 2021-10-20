@@ -4,6 +4,7 @@ import notfound from '../../images/notfound/404.png'
 
 const NotFound = () => {
     return (
+        // not found section
         <div className="text-center">
             <div>
                 <img src={notfound} alt="" />

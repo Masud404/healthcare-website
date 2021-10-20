@@ -5,6 +5,7 @@ import { Col, Container, Form, Row } from 'react-bootstrap';
 const Contact = () => {
     return (
         <div className="my-5">
+            {/* form section */}
             <Container>
                 <h1 className="mb-5 fw-bold text-primary">Stay Connected</h1>
                 <Row>
@@ -59,17 +60,20 @@ const Contact = () => {
                             <button className="btn btn-primary">Submit</button>
                         </Form>
                     </Col>
+                    {/* address section */}
                     <Col>
                         <div className="text-center">
                             <div className="fw-bold">
                                 <h1>Email Address</h1>
                                 <p className="text-primary">masud215502@gmail.com</p>
                             </div>
+                            {/* call section */}
                             <div className="fw-bold">
                                 <h1>Call Center</h1>
                                 <p className="text-primary">01929039442</p>
                                 <p className="text-primary">01796325990</p>
                             </div>
+                            {/* schedule section */}
                             <div className="fw-bold">
                                 <h1>Our schedule</h1>
                                 <p className="text-primary">Monday - Saturday <br />
