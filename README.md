@@ -4,6 +4,7 @@
 https://github.com/Programming-Hero-Web-Course3/healthcare-related-website-Masud404
 
 ## Netlify Link
+https://wonderful-einstein-b9138d.netlify.app/
 
 ### 1.Medico is a 20+ year old healthcare technology and management company. We partner with healthcare practices to provide end-to-end solutions including medical billing, healthcare consulting and practice analytics, allowing practices to eliminate revenue cycle management inefficiencies. Our diverse background in every aspect of healthcare allows us to maximize revenue and consistently deliver optimum results. 
 
